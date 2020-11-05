@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import config from "../Data/config.json";
 import { Card, CardDeck } from "react-bootstrap";
-import "./ConfigCard.css";
+import "../Styles/ConfigCard.css";
 import { Grid } from "@material-ui/core";
 import SentimentVeryDissatisfiedSharpIcon from "@material-ui/icons/SentimentVeryDissatisfiedSharp";
 

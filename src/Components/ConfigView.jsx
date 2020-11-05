@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import config from "../Data/config.json";
 import Avatar from "@material-ui/core/Avatar";
-import "./ConfigView.css";
+import "../Styles/ConfigView.css";
 import { Grid } from "@material-ui/core";
 
 export class ConfigView extends Component {
