@@ -1,7 +1,19 @@
 .App {
   text-align: center;
 }
-
+.contentsection {
+  padding-left: 190px;
+  padding-right: 200px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.buttonstyle {
+  padding-left: 45px;
+}
+.Appcolo {
+  background-color: linear-gradient(rgba(250, 0, 0, 0.5), transparent);
+  background-color: orange;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,15 +25,21 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+.App-heade {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
   min-height: 100vh;
+  /* min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {

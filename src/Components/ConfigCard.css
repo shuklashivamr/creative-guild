@@ -1,0 +1,40 @@
+.cardProperty {
+  width: 18rem;
+  background: white;
+  border-radius: 5px;
+  line-height: 0.5rem;
+}
+.carddiv {
+  position: relative;
+  border-radius: 5px;
+}
+.imgstyle {
+  width: 18rem;
+  height: 160px;
+  position: relative;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-title {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.2rem;
+  font-size: 13;
+}
+.card-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 1.2;
+  font-size: 13px;
+  display: inline-block;
+  justify-content: flex;
+  background: white;
+  text-align: justify;
+}
+.image-text {
+  position: absolute;
+  top: 120px;
+  color: white;
+  z-index: 2;
+  padding-left: 10px;
+}
